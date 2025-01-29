@@ -1,0 +1,47 @@
+/* Header */
+.section-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #166088;
+    color: #DBE9EE;
+    font-size: 2rem;
+}
+
+
+/* Footer */
+.section-footer {
+    display: grid;
+    background-color: #166088;
+    color: #DBE9EE;
+    padding: 4rem 24rem 3.2rem 24rem;
+    text-decoration: none;
+
+}
+
+.footer {
+    align-items: center;
+    justify-self: center;
+    gap: 18rem;
+}
+
+.contact-title, .socials-title, .learn-more {
+    align-self: center;
+}
+
+.email {
+    font-size: 1.4rem;
+}
+
+.socials-icons {
+    align-self: center;
+}
+
+.footer-icon {
+    color: #DBE9EE;
+}
+
+.about-text {
+    align-self: center;
+    font-size: 1.4rem;
+}

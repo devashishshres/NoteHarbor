@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    line-height: 1;
+    color: #000000;
+}
+
+.section {
+    height: 100vh;
+}
+
+.link {
+    text-decoration: none;
+    color: #DBE9EE;
+}
+
+.grid {
+    display: grid;
+}
+
+.grid--4--cols {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.tertiary-title {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.footer-boxes {
+    display: flex;
+    flex-direction: column;
+    row-gap: 3rem;
+}
