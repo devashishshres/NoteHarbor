@@ -1,7 +1,65 @@
 <%- include("../../views/partials/header.ejs")  %>
 
 
-<section class="test section"></section>
+<section class="section grid grid--2--cols">
+    <div class="left-side-page">
+        <div class="text-box-sign-up">
+            <p class="info-text-sign-up">Join a community where students collaborate, share resources, and grow together through collective learning.</p>
+        </div>
+    </div>
+    <div class="right-side-page">
+        <div class="sign-up-box">
+            <h1>Join NoteHarbor.</h1>
+            <div class="user-input-info-box">
+
+                <div class="name-box-sign-up su-box">
+                    <label for="full-name" class="form-text-sign-up">Full Name</label>
+                    <form class="sign-up-form">
+                        <input type="text" id="full-name" name="full-name" class="input-box" placeholder="Enter your name">
+                    </form>
+                </div>
+
+                <div class="email-box-sign-up su-box">
+                    <label for="email" class="form-text-sign-up">Email Address</label>
+                    <form class="sign-up-form">
+                        <input type="text" id="email" name="email" class="input-box" placeholder="Enter your email">
+                    </form>
+                </div>
+
+                <div class="username-box-sign-up su-box">
+                    <label for="username" class="form-text-sign-up">Username</label>
+                    <form class="sign-up-form">
+                        <input type="text" id="username" name="username" class="input-box" placeholder="Enter your username">
+                    </form>
+                </div>
+
+                <div class="password-box-sign-up su-box">
+                    <label for="pass" class="form-text-sign-up">Password</label>
+                    <form class="sign-up-form">
+                        <input type="password" id="pass" name="pass" class="input-box"  placeholder="Enter your password">
+                    </form>
+                </div>
+
+                <div class="confirm-password-box-sign-up su-box">
+                    <label for="confirm-pass" class="form-text-sign-up">Confirm Password</label>
+                    <form class="sign-up-form">
+                        <input type="password" id="confirm-pass" name="confirm-pass" class="input-box"  placeholder="Confirm your password">
+                    </form>
+                </div>
+
+                <div class="sign-up-btn-box su-box">
+                    <input type="submit" class="sign-up-btn" value="Sign Up">
+                </div>
+
+                <div class="sign-up-footer">
+                    <p>Already have an account?</p>
+                    <a href="#" class="login-link-sp">Login</a>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
 
 
 <%- include("../../views/partials/footer.ejs") %>

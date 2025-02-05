@@ -8,7 +8,6 @@
     font-size: 2rem;
 }
 
-
 /* Footer */
 .section-footer {
     display: grid;
@@ -44,4 +43,100 @@
 .about-text {
     align-self: center;
     font-size: 1.4rem;
+}
+
+/* Sign Up Page */
+.left-side-page {
+    background-color: #D9D9D9;
+    align-content: center;
+}
+
+.text-box-sign-up {
+    padding: 0 2.4rem;
+    text-align: center;
+    justify-content: center;
+}
+
+.info-text-sign-up {
+    font-size: 2.4rem;
+    font-weight: 400;
+}
+
+.right-side-page {
+    background-color: #CECECE;
+}
+
+.sign-up-box {
+    max-width: 50rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #D9D9D9;
+    margin: 7.2rem auto;
+    border-radius: 5px;
+}
+
+.sign-up-box h1 {
+    font-size: 3.8rem;
+    padding: 6.2rem 4.2rem 6.4rem 4.2rem;
+    align-self: center;
+}
+
+.form-text-sign-up {
+    font-size: 1.8rem;
+}
+
+.input-box {
+    font-size: 1.8rem;
+    width: 100%;
+    border: 2px solid #1a1a1a;
+    padding: 1.2rem 2.4rem;
+    border-radius: 12px;
+    background-color: #CECECE;
+}
+
+.su-box {
+    padding: 0 3.8rem;
+}
+
+.su-box label {
+    display: block;
+    padding-bottom: 1.6rem;
+}
+
+.sign-up-form input {
+    margin-bottom: 3.2rem;
+}
+
+.sign-up-btn-box {
+    margin: 1.2rem 0 4.8rem 0;
+}
+
+.sign-up-btn {
+    width: 100%;
+    padding: 1.2rem 2.4rem;
+    font-size: 2.4rem;
+    color: #DBE9EE;
+    border: 2px solid #166088;
+    border-radius: 12px;
+    background-color: #166088;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+    transition-duration: 0.4s;
+}
+
+.sign-up-btn:hover {
+    cursor: pointer;
+    background-color: #124d6d;
+}
+
+.sign-up-footer {
+    display: flex;
+    justify-content: center;
+    gap: 1.4rem;
+    font-size: 1.8rem;
+    margin-bottom: 3.8rem;
+}
+
+.login-link-sp {
+    text-decoration: none;
+    color: #166088;
 }
