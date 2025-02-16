@@ -1,0 +1,43 @@
+<%- include("../../views/partials/header.ejs")  %>
+
+
+<section class="section grid grid--2--cols">
+    <div class="left-side-page">
+        <div class="text-box-login">
+            <p class="info-text-login">A completely <b>free</b> and accessible platform designed for students to share their notes and study materials.</p>
+        </div>
+    </div>
+    <div class="right-side-page">
+        <div class="login-box">
+            <h1>Log In</h1>
+            <div class="user-input-info-box">
+
+                <div class="email-box-login su-box">
+                    <label for="email" class="form-text-login">Email Address</label>
+                    <form class="login-form">
+                        <input type="text" id="email" name="email" class="input-box" placeholder="Enter your email">
+                    </form>
+                </div>
+
+                <div class="password-box-login su-box">
+                    <label for="password" class="form-text-login">Password</label>
+                    <form class="login-form">
+                        <input type="password" id="pass" name="pass" class="input-box"  placeholder="Enter your password">
+                    </form>
+                </div>
+
+                <div class="login-btn-box su-box">
+                    <input type="submit" class="login-btn" value="Log In">
+                </div>
+
+                <div class="login-footer">
+                    <p>Don't have an account?</p>
+                    <a href="/register" class="sign-up-link-lp">Sign Up</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<%- include("../../views/partials/footer.ejs") %>

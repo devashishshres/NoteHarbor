@@ -16,3 +16,8 @@ app.listen(port, () => {
 app.get("/register",(req,res) => {
     res.render("pages/register.ejs");
 });
+
+
+app.get("/login", (req,res) => {
+    res.render("pages/login.ejs");
+})
